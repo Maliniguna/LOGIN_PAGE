@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap');
+*{
+    font-family: "Fanwood Text", serif;
+    margin: 0;
+    padding: 1px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.style1{
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   background: rgba(255,255,255,0.06);
+   box-shadow: 0 8px 30px;
+   border-radius: 30px;
+   text-align: center;
+}
+i{
+    position: absolute;
+    right: 20px;
+}
+label{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+input{
+    width: 70%;
+    margin: 5%;
+    background: transparent;
+    border-bottom: 2px solid rgba(249, 222, 222, 0.705);
+    outline: none;
+}
+button{
+    width: 20%;
+    margin: 3%;
+    color: rgb(6, 6, 6);
+    font-size: 15px;
+    background: rgba(241, 192, 192, 0.06);
+    padding: 10px;
+    box-shadow: 3px 1px;
+    border-radius: 50px;
+}
+a{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.social-icon{
+   margin: 30px auto;
+   text-align: center;
+}
+.social-icon img{
+    width: 50px;
+    margin: 0 12px;
+    border-radius: 100%;
+    box-shadow: 1px 4px 1px;
+}
